@@ -14,7 +14,7 @@ function App() {
 
   async function handleAddRepository() {
     const response = await api.post('repositories', {
-      url: "https://github.com/gostack-reactjs-concepts",
+      url: "https://github.com/giovanivrech/gostack-reactjs-concepts",
       title: "ReactJS Challenge",
       techs: ["React", "Node.js"]
     });
